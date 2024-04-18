@@ -1,0 +1,237 @@
+
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="assets/schedule.css">
+
+</head>
+
+
+<body>
+    <p style="font-size: 28;"><b>Behavioral Dynamics in Social Interactions</b></p>
+    <p style="font-size: 12;"><i>Last update: April 17, 2024</i>
+    <p style="font-size: 12;">For practical/organizational questions, contact Arek Białek (<i><a
+      href="mailto:a.bialek@uj.edu.pl"
+      class="email">a.bialek@uj.edu.pl</a></i>)<br><br></p>
+
+    <div class="button-container">
+      <button onclick="toggleTable('Thursday-table')">Thursday only</button>
+      <button onclick="toggleTable('Friday-table')">Friday only</button>
+      <button onclick="toggleTable('Saturday-table')">Saturday only</button>
+      <button onclick="showAll()">Show All</button>
+  </div>
+  <br>
+  
+    <div id="table-container">
+      <!--Thursday -->
+      <table id="Thursday-table" class="conference-table" style="max-width:33%">
+        <thead>
+          <td></td>
+          <td id="Thursday" class="days" colspan="2" ><b>Thursday, May 2nd </b></td>
+        </thead>
+      <body>
+        <tr>
+          <th>09:00 -09:30</th>
+          <td class="breaks" id="Thursday" style="height: 50px;">Registration</td>
+
+        </tr>
+        <tr>
+          <th>09:30 - 10:00</th>
+          <td class="keynote" id="Thursday" style="height: 50px;"><b>Introduction & Opening</b></td>
+        </tr>
+        
+        <tr>
+          <th>10:00-11:30</th>
+          <td class="keynote" id="Thursday" style="height: 150px;"><b>Keynote 1</b></br>Behavioural Dynamics of Social Interaction and Human-Machine Systems</br></br><b><a href="https://researchers.mq.edu.au/en/persons/michael-richardson" style="color: white;">Michael J. Richardson & Rachel W. Kallen</a></b></td>
+        </tr>
+        <tr>
+            <th>11:30 - 12:00</th>
+            <td class="breaks" id="Thursday" style="height: 50px;">Coffee Break</td>
+        </tr>
+        
+        <tr>
+          <th>12:00 - 13:00</th>
+          <td class="session" id="Thursday" style="height: 100px;"><b>Introduction to Cross-Recurrence Quantification Analysis (CRQA)</a></b></br></br> Leonardo ?</td>
+        </tr>
+
+        <tr>
+          <th>13:00 - 14:30</th>
+          <td class="breaks" id="Thursday"  style="height: 150px;"></br>Lunch Break<span>the lunch place</span></br></td>
+          </tr>
+          <tr>
+            <th>14:30 - 15:30</th>
+            <td class="session" id="Thursday" style="height: 100px;"><b>Infant-Mother Interactions: Key Issues and Introduction to Dataset</a></b></br></br> Arek Białek & Wim Pouw</td>
+          </tr>
+          <tr>
+            <th>15:30 - 16:00</th>
+            <td class="breaks" id="Thursday" style="height: 50px;"></br>Coffee Break<br></td>
+            </tr>
+        </tr>
+      <th>16:00 - 17:30</th>
+      <td class="keynote" id="Thursday" style="height: 150px;"><b>Keynote 2</b></br>Tension and Agency in Interpersonal Interaction: Developmental Perspective and Methodological Considerations</a></br></br><b><a href="https://hill.psych.uw.edu.pl/people/" style="color: white;">Joanna Rączaszek-Leonardi</a></b></td>
+        <tr>
+      <th>17:30 - 18:00</th>
+      <td colspan="2" class="breaks" id="Thursday" style="height: 50px;"><b>Break</a></td>
+
+        <tr>
+          <th>18:00 - 20:00</th>
+          <td colspan="2" class="social" id="Thursday" style="height: 200px;"><b>Social Dinner</b><span>on-site</span></td>
+        </tr>
+        <tr></tr>
+      </body>
+
+        <!-- Friday -->
+      <table id="Friday-table" class="conference-table" style="max-width:33%">
+          <thead>
+            <td></td>
+            <td id="Friday" class="days"><b>Friday, May 3rd </b></td>
+          </thead>
+        <body>   
+            <tr>
+                <th>09:00 - 09:30</th>
+                <td class="session" id="Friday" style="height: 50px;"><b>Journal Club</b></br>led by: Travis Wiltshire</td>
+            </tr>      
+            <tr>
+                <th>09:30-11:30</th>
+                <td  class="keynote" id="Friday" style="height: 200px;"><b>Keynote 3</b></br>Multi-layer Recurrence Networks as Descriptive Analyses of Interaction Dynamics</br></br><b><a href="https://fredhasselman.com/" style="color: white;">Fred Hasselman</b></a></b></td>
+            </tr>
+            <tr>
+                <th>11:30 - 12:00</th>
+                <td class="breaks" id="Friday" style="height: 50px;">Coffee Break<br></td>
+            </tr>
+            <tr>
+                <th>12:00 - 12:30</th>
+                <td class="session" id="Friday" style = "height: 50px;"><b>Introduction to <a href="https://envisionbox.org">EnvisionBOX</a></b></br>Wim Pouw</td>
+            </tr>
+            <tr>
+                <th>12:30 - 14:00</th>
+                <td colspan="2" class="breaks" id="Friday" style="height: 150px;"></br>Lunch Break<span>The lunch place</span></br></td>
+                </tr>
+            <tr>
+                <th>14:00 - 15:00</th>
+                <td colspan="1" class="session" id="Friday" style="height: 100px;"><b><a href="https://github.com/jptrujillo/turntaking_entropy_module">Analyzing Multi-Party Turn-Taking Behavior</a></b></br></br>James Trujillo</td>
+            </tr>
+            <tr>
+                <th>15:00 - 16:00</th>
+                <td colspan="2" class="posters" id="Friday"  style="height: 100px;"><b>Establishing Collaboration</b></br></td>
+            </tr>
+            <tr>
+            <th>16:00 - 16:30</th>
+            <td class="breaks" id="Friday"  style="height: 50px;">Coffee Break</td>
+            </tr>
+            <tr>
+            <th>16:30 - 18:00</th>
+            <td colspan="2" class="posters" id="Friday"  style="height: 150px;"></br></br></br>Poster Session </a></b></br></br></br></td>
+            </tr>
+            <tr></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+        </body>
+
+          <!-- Saturday -->
+      <table id="Saturday-table" class="conference-table" style="max-width:33%">
+        <thead>
+          <td></td>
+          <td id="Saturday" class="days" colspan="4"><b>Saturday, May 4th </b></td>
+        </thead>
+      <body>
+        <tr>
+          <th>09:00 - 09:30</th>
+          <td colspan="2" class="session" id="Saturday" style="height: 50px;"><b>Journal Club</b></br>led by: Joanna Rączaszek-Leonardi</td>          
+        </tr>
+      
+      <tr>
+        <th>09:30 - 11:00</th>
+        <td colspan="4" rowspan="1" class="keynote" id="Saturday" style="height: 150px;"><b>Keynote 4</b></br> Adapting Together in Social Interactions, Improvisations, and Team Dynamics</br></br> <b><a href="https://www.travisjwiltshire.com/" style="color: white;">Travis Wiltshire</a></b></br> </td>
+       
+      <tr>
+        <th>11:00 - 11:30</th>
+        <td class="breaks" id="Saturday" style="height: 50px;">Coffee Break</td>
+      </tr>
+    <tr>
+        <th>11:30 - 12:30</th>
+        <td class="posters" id="Saturday"  style="height: 100px;"><b>Establishing Collaboration</b></br></td>
+      </tr>
+      <tr>
+        <th>12:30 - 14:00</th>
+        <td class="breaks" id="Saturday" style="height: 150px;"></br>Lunch Break<span>The lunch place</span></br></td>
+        </tr>
+        <tr>
+            <th>14:00 - 15:00</th>
+            <td class="session" id="Saturday" style="height: 100px;"><b><a href="https://github.com/jptrujillo/CrossWavelet_SpeechGesture_Synchrony">Analyzing Speech-Gesture Synchrony Using Cross-Wavelet Analysis</a></b></br>James Trujillo</td>
+        </tr>
+        <tr>
+            <th>15:00 - 15:30</th>
+            <td class="breaks" id="Saturday" style="height: 50px;">Coffee Break </td>
+          </tr>
+  <tr>
+      <th>15:30 - 16:00</th>
+      <td class="keynote" id="Saturday" style="height:50px"><b>Closing of the Workshop</b></td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+      </body>
+      </table>
+      </table>
+    </div>
+</body>
+
+
+    <!--
+<table id="schedule-table">
+   
+    <body>
+      
+        <tr>
+        <td class="days">08:00</td>
+        <td colspan="1" rowspan="2" class="breaks" id="Thursday">Registration & coffee</td>
+        <td colspan="1" rowspan="2" class="breaks" id="Friday">Coffee</td>
+       <td></td>
+      </tr>
+      <tr>
+        <th>08:30</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th>09:00</th>
+        <td colspan="1" rowspan="2" class="keynote" id="Thursday">Keynote: Nuria Esteve-Gibert <span>Room:</span></td>
+        <td colspan="1" rowspan="2" class="keynote" id="Friday">Keynote: Yifei He <span>Room:</span></td>
+      <td></td>
+    </tr>
+      <tr>
+   
+    
+ 
+
+  </table> -->
+
+  <script>
+    function toggleTable(tableId) {
+        // Hide all tables
+        var tables = document.getElementsByClassName("conference-table");
+        for (var i = 0; i < tables.length; i++) {
+            tables[i].style.display = "none";
+            tables[i].style.margin = "0 auto"; 
+        }
+        
+        // Show the selected table
+        var table = document.getElementById(tableId);
+        table.style.display = "block";
+        // Extend the width of the table
+        table.style.margin = "0 auto";
+        // Make the font bigger
+        table.style.fontSize = "20px";
+
+
+    }
+    
+    function showAll() {
+        // Show all tables
+        var tables = document.getElementsByClassName("conference-table");
+        for (var i = 0; i < tables.length; i++) {
+            tables[i].style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
