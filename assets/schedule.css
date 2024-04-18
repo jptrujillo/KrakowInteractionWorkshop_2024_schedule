@@ -1,0 +1,119 @@
+body {
+  display: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align:center;
+}
+
+#table-container {
+  display: flex;
+}
+
+.conference-table {
+  width: 90%;
+  margin-right: 10px;
+}
+
+.conference-table th {
+  color: black;
+  font-size: 11px;
+  max-width: 150px;
+  border-top: thin dotted #ccc;
+  text-align:center;
+}
+
+table {
+  width: 80%;
+  max-width: 80%;
+}
+
+
+table td {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  border-radius: 0.2rem;
+  transition: opacity 0.3s ease;
+  padding: 0.5rem 1rem;
+  text-align:center;
+
+}
+a:link, a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+table td > span {
+  font-size: 0.8em;
+  font-weight: normal;
+  display: block;
+  width: 100%;
+}
+
+.breaks {
+  background-color: #aecbeb;
+  height: 50px;
+}
+
+.keynote {
+  color: white;
+  background-color: #263853;
+}
+
+.session {
+  background-color: #7e8c9b;
+  height: 100px;
+}
+
+.days {
+ 
+  font-size: large;
+}
+
+.social {
+  background-color: #6e9954;
+  height: 100px;
+
+
+}
+
+.posters {
+  background-color: #7b96cf;
+  height: 100px;
+
+
+}
+
+
+/* Customized button styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.button-container button {
+  background-color: #0d2a52;
+      color: #fff;
+      border: none;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.8rem;
+      margin: 0 0.5rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0d2a52;
+}
+
+/* Customized paragraph style */
+p {
+  font-size: 1.2rem;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/*# sourceMappingURL=schedule.css.map */
